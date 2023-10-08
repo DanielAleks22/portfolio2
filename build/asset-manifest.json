@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e740486d.css",
+    "main.js": "/static/js/main.e29b433e.js",
+    "static/media/python.png": "/static/media/python.c44b9b809ebf766cbb4f.png",
+    "static/media/Aleksandrov_CV_EN.pdf": "/static/media/Aleksandrov_CV_EN.b449607492af8fc9bed6.pdf",
+    "static/media/cpp.png": "/static/media/cpp.053a898d752aef72651e.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.e740486d.css.map": "/static/css/main.e740486d.css.map",
+    "main.e29b433e.js.map": "/static/js/main.e29b433e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e740486d.css",
+    "static/js/main.e29b433e.js"
+  ]
+}
