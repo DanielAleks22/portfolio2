@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2/static/css/main.14ef018c.css",
-    "main.js": "/portfolio2/static/js/main.ebfc00d4.js",
+    "main.js": "/portfolio2/static/js/main.b4f77c3a.js",
     "static/media/python.png": "/portfolio2/static/media/python.c44b9b809ebf766cbb4f.png",
     "static/media/Aleksandrov_CV_EN.pdf": "/portfolio2/static/media/Aleksandrov_CV_EN.b449607492af8fc9bed6.pdf",
     "static/media/cpp.png": "/portfolio2/static/media/cpp.053a898d752aef72651e.png",
@@ -12,10 +12,10 @@
     "static/media/javascript.png": "/portfolio2/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio2/index.html",
     "main.14ef018c.css.map": "/portfolio2/static/css/main.14ef018c.css.map",
-    "main.ebfc00d4.js.map": "/portfolio2/static/js/main.ebfc00d4.js.map"
+    "main.b4f77c3a.js.map": "/portfolio2/static/js/main.b4f77c3a.js.map"
   },
   "entrypoints": [
     "static/css/main.14ef018c.css",
-    "static/js/main.ebfc00d4.js"
+    "static/js/main.b4f77c3a.js"
   ]
 }
