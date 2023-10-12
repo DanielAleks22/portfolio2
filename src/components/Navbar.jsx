@@ -4,11 +4,27 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import {Link} from 'react-scroll';
-import CV from '../assets/Aleksandrov_CV_EN.pdf';
+import CvEN from '../assets/Aleksandrov_CV_EN.pdf';
+import CvFR from '../assets/Aleksandrov_CV_FR.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav)
+  const [isModalOpen, setModalOpen] = useState(false); 
+
+  const handleClick = () => setNav(!nav);
+
+  // Event handlers
+  const handleModalOpen = () => {
+    setModalOpen(true);
+  };
+  const handleModalClose = () => {
+    setModalOpen(false);
+  };
+  const handleCVSelection = (cv) => {
+    handleModalClose();
+    // Open selected CV in a new tab
+    window.open(cv, '_blank');
+  };
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#7c3333]  text-gray-300'>
@@ -98,13 +114,31 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#7e2c2c]'>
-                  <a className='flex justify-between items-center w-full text-gray-300' href={CV} target="_blank" rel="noopener noreferrer">
-                      Resume <BsFillPersonLinesFill size={30}/>
-                    </a>
+                    <button 
+                        className='flex justify-between items-center w-full text-gray-300 bg-transparent border-none cursor-pointer focus:outline-none' 
+                        onClick={handleModalOpen}>
+                        Resume <BsFillPersonLinesFill size={30}/>
+                    </button>
                   </li>
                 </ul>
 
             </div>
+            {/* Resume modal */}
+            {isModalOpen && (
+              <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-opacity-50 bg-black">
+                <div className="bg-white p-8 rounded-md shadow-lg">
+                  <h2 className="text-xl text-gray-700 font-semibold mb-4">Select CV Language:</h2>
+                  <div className='flex justify-between space-x-8'>
+                    <button className="bg-[#fd7d7d] hover:bg-[#7c3333] text-white font-bold py-2 px-4 rounded" 
+                      onClick={() => handleCVSelection(CvEN)}>English</button>
+                    <button className="bg-[#fd7d7d] hover:bg-[#7c3333]  text-white font-bold py-2 px-4 rounded" 
+                      onClick={() => handleCVSelection(CvFR)}>French</button>
+                  </div>
+                  <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full mt-4" 
+                    onClick={handleModalClose}>Cancel</button>
+                </div>
+              </div>
+            )}
             
     </div>
   )
