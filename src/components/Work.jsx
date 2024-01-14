@@ -13,7 +13,10 @@ const Work = () => {
             {/* Grid Container */}
             <div className='text-12xl'>
                 <ul className="list-disc">
-                    <li><strong>EasyGoing</strong>: Provides geolocation-based data including weather, news, local activities, and nearest metro/train stations, using React Native and Python.</li>
+                <li><strong>Atlas-Voyager</strong>: Interactive 3D Earth visualization web application. Allows users to explore historical events by year, 
+                        with markers on a global map. Frontend developed with Angular, backend with NestJS.</li>
+                    <li><strong>EasyGoing</strong>: Provides geolocation-based data including weather, news, local activities, and nearest metro/train stations, 
+                        using React Native and Python.</li>
                     <li><strong>ZooAdopt</strong>: This full-stack web application enabling users to list and adopt pets. Crafted the frontend using vanilla HTML, CSS,
                         and JavaScript. Backend built using Flask with Python and JavaScript integration, utilizing SQLite for database management.</li>
                     <li><strong>DebtGraph</strong>: Utilizes graph data structures for calculating debt and loans among banks in C++.</li>
