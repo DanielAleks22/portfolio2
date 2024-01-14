@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.938416d2.css",
-    "main.js": "/portfolio2/static/js/main.e235745a.js",
+    "main.css": "/portfolio2/static/css/main.86ccd8d3.css",
+    "main.js": "/portfolio2/static/js/main.5775692a.js",
     "static/media/python.png": "/portfolio2/static/media/python.c44b9b809ebf766cbb4f.png",
-    "static/media/Aleksandrov_CV_FR.pdf": "/portfolio2/static/media/Aleksandrov_CV_FR.e27c90228a0216825c42.pdf",
-    "static/media/Aleksandrov_CV_EN.pdf": "/portfolio2/static/media/Aleksandrov_CV_EN.85704ee3f1b499890a3d.pdf",
+    "static/media/Aleksandrov_CV_FR.pdf": "/portfolio2/static/media/Aleksandrov_CV_FR.3b7d62dd7b0d9634984f.pdf",
+    "static/media/Aleksandrov_CV_EN.pdf": "/portfolio2/static/media/Aleksandrov_CV_EN.2b6fe8f94d592e89ada0.pdf",
     "static/media/cpp.png": "/portfolio2/static/media/cpp.053a898d752aef72651e.png",
     "static/media/react.png": "/portfolio2/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/portfolio2/static/media/github.3b9e32903aa89111875d.png",
@@ -12,11 +12,11 @@
     "static/media/css.png": "/portfolio2/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio2/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio2/index.html",
-    "main.938416d2.css.map": "/portfolio2/static/css/main.938416d2.css.map",
-    "main.e235745a.js.map": "/portfolio2/static/js/main.e235745a.js.map"
+    "main.86ccd8d3.css.map": "/portfolio2/static/css/main.86ccd8d3.css.map",
+    "main.5775692a.js.map": "/portfolio2/static/js/main.5775692a.js.map"
   },
   "entrypoints": [
-    "static/css/main.938416d2.css",
-    "static/js/main.e235745a.js"
+    "static/css/main.86ccd8d3.css",
+    "static/js/main.5775692a.js"
   ]
 }
